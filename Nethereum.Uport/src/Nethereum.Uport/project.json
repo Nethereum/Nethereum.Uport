@@ -1,0 +1,33 @@
+﻿{
+  "version": "0.0.1",
+  "description": "Nethereum.Uport library",
+  "authors": [ "Juan Blanco" ],
+  "copyright": "Juan Blanco",
+  "title": "Nethereum.Uport",
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Nethereum/Nethereum"
+    },
+    "summary": "Nethereum.Uport",
+    "tags": [ "Netherum", "Ethereum", "Uport", "Blockchain", "Crypto 2.0" ],
+    "projectUrl": "http://www.nethereum.com",
+    "licenseUrl": "https://raw.githubusercontent.com/Nethereum/Nethereum/master/LICENSE.md",
+    "iconUrl": "https://raw.githubusercontent.com/Nethereum/Nethereum/master/logos/logo64x64.png"
+  },
+  "frameworks": {
+    "netstandard1.1": {
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      },
+      "imports": [ "dotnet52" ]
+    },
+    ".NETPortable,Version=v4.5,Profile=Profile111": {},
+    "net451": {}
+  },
+  "dependencies": {
+    "Nethereum.Hex": "1.0.1",
+    "Nethereum.RPC": "1.0.1",
+    "Portable.BouncyCastle": "1.8.1"
+  }
+}

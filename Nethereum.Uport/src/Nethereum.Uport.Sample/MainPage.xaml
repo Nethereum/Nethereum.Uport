@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Nethereum.Uport.Sample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nethereum.Uport.Sample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="qrImage" Grid.Row="0"></Image>
+        <StackPanel Grid.Row="1">
+        <Button x:Name="btnGenAddress"  Content="Gen Address QR" Click="btnGenAddress_Click"/>
+        <Button x:Name="btnGetAddress"  Content="Get Address" Click="btnGetAddress_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Page>
